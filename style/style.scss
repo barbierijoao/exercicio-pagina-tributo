@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;700&display=swap');
+
+// INICIO DA ESLILIZAÇÃO GERAL
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --dark: #000;
+    --white: #fff;
+    --gray-dark: #232323;
+    --green-blue: #00FFB2;    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--dark);
+    overflow-x: hidden;    
+}
+
+// FINAL DA ESLILIZAÇÃO GERAL
+
+// INICIO DO CONTAINER
+
+.container {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    gap: 17px;
+
+    h1 {
+        display: flex;
+        justify-content: center;
+        margin: 17px auto;
+
+        color: var(--white);
+
+        font-size: 35px;
+        font-weight: bold;
+    }
+
+    .banner-image {
+        width: 600px;
+        height: 900px;
+        background-color: var(--green-blue);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 18px;
+
+        img {
+           width: 550px;
+           height: 800px; 
+        }
+
+        p {
+           font-size: 35px;
+           font-weight: bold;
+           color: var(--dark); 
+        }
+    }
+
+    h2 {
+       font-size: 35px;
+       font-weight: bold;
+       color: var(--white);
+       text-align: center;
+       
+
+    }
+}
+
+// INICIO DO CONTAINER
+
+// INICIO DA ESLILIZAÇÃO DA DESCRIÇÃO
+
+.description {
+    width: 100%;
+    margin: 60px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 44px;
+
+    h1 {
+      font-size: 35px;
+      font-weight: bold;
+      color: var(--white);  
+    }
+
+    p {
+        width: 100%;
+        height: 165px;
+        width: 2100px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        font-size: 30px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--white);
+
+        border-bottom: 1px solid var(--gray-dark);
+        border-top: 1px solid var(--gray-dark);
+    }
+}
+
+// INICIO DA ESLILIZAÇÃO DA DESCRIÇÃO
+
+// INICIO DA ESLILIZAÇÃO DAS INFORMAÇÕES
+
+.biography-container {
+    width: 100%;
+
+    display: flex;
+
+    .information {
+        padding: 0 90px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        gap: 100px;
+
+        .personal-information {
+            width: 500px;
+            height: 550px;
+
+            background-color: var(--gray-dark);
+            border-radius: 10px;
+            border: 2px solid var(--white);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            gap: 50px;
+
+            h1 {
+                font-size: 35px;
+                font-weight: bold;
+                color: var(--white);
+            }
+
+            p {
+                font-size: 23px;
+                font-weight: 100;
+                color: var(--white);
+
+                span {
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .cartel-information {
+            width: 500px;
+            height: 550px;
+
+            background-color: var(--gray-dark);
+            border-radius: 10px;
+            border: 2px solid var(--white);
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            gap: 50px;
+
+            h1 {
+                font-size: 35px;
+                font-weight: bold;
+                color: var(--white);
+            }
+
+            p {
+                font-size: 23px;
+                font-weight: 100;
+                color: var(--white);
+                
+                span {
+                    font-size: 32px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        .wikpedia-button {
+            width: 500px;
+            height: 260px;
+            
+
+            background-color: var(--gray-dark);
+            border-radius: 10px;
+            border: 2px solid var(--white);
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            div {
+                width: 400px;
+                height: 160px;
+                background-color: var(--green-blue);
+                
+                border-radius: 20px;
+                border: 5px solid var(--dark);
+
+                transition: all 0.5s;
+
+                &:hover {
+                    background-color: #44ffc7;
+                }
+
+                img {
+                    width: 120px;
+                    height: 140;
+                }
+            }
+        }
+    }
+}
+
+// FINAL DA ESLILIZAÇÃO DAS INFORMAÇÕES
+
+// INICIO DA ESLILIZAÇÃO DO TEXTO
+
+.description-container {
+    width: 100%;
+    margin: 0 100px;
+
+    background-color: var(--gray-dark);
+    border-radius: 10px;
+    border: 1px solid var(--white);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    gap: 60px;
+
+    h1 {
+        font-size: 35px;
+        font-weight: bold;
+        color: var(--white);       
+    }
+
+    p {
+       font-size: 25px;
+       font-weight: 200;
+       color: var(--white); 
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 200;
+        color: var(--white);
+    }
+}
+
+// FINAL DA ESLILIZAÇÃO DO TEXTO
+
+// INICIO DA ESLILIZAÇÃO DO FOOTER
+
+footer {
+    width: 100%;
+    margin-top: 110px;
+    height: 100px;
+    background-color: var(--gray-dark);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .criator {
+        h1 {
+            font-size: 35px;
+            font-weight: bold;
+            color: var(--white);
+
+            span {
+                color: var(--green-blue);
+            }
+        }
+    }
+}
+
+// FINAL DA ESLILIZAÇÃO DO FOOTER
+
