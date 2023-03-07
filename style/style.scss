@@ -149,7 +149,7 @@ body {
             flex-direction: column;
             justify-content: center;
 
-            gap: 50px;
+            gap: 30px;
 
             h1 {
                 font-size: 35px;
@@ -159,7 +159,7 @@ body {
 
             p {
                 font-size: 23px;
-                font-weight: 100;
+                font-weight: 200;
                 color: var(--white);
 
                 span {
@@ -181,7 +181,7 @@ body {
             flex-direction: column;
             justify-content: center;
 
-            gap: 50px;
+            gap: 30px;
 
             h1 {
                 font-size: 35px;
@@ -191,7 +191,7 @@ body {
 
             p {
                 font-size: 23px;
-                font-weight: 100;
+                font-weight: 200;
                 color: var(--white);
                 
                 span {
@@ -245,6 +245,8 @@ body {
     width: 100%;
     margin: 0 100px;
 
+    padding: 20px 0;
+
     background-color: var(--gray-dark);
     border-radius: 10px;
     border: 1px solid var(--white);
@@ -255,17 +257,17 @@ body {
     justify-content: center;
     text-align: center;
 
-    gap: 60px;
+    gap: 20px;
 
     h1 {
         font-size: 35px;
         font-weight: bold;
-        color: var(--white);       
+        color: var(--green-blue);       
     }
 
     p {
        font-size: 25px;
-       font-weight: 200;
+       font-weight: 300;
        color: var(--white); 
     }
 

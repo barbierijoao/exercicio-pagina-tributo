@@ -109,7 +109,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
 }
 .biography-container .information .personal-information h1 {
   font-size: 35px;
@@ -118,7 +118,7 @@ body {
 }
 .biography-container .information .personal-information p {
   font-size: 23px;
-  font-weight: 100;
+  font-weight: 200;
   color: var(--white);
 }
 .biography-container .information .personal-information p span {
@@ -134,7 +134,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 50px;
+  gap: 30px;
 }
 .biography-container .information .cartel-information h1 {
   font-size: 35px;
@@ -143,7 +143,7 @@ body {
 }
 .biography-container .information .cartel-information p {
   font-size: 23px;
-  font-weight: 100;
+  font-weight: 200;
   color: var(--white);
 }
 .biography-container .information .cartel-information p span {
@@ -179,6 +179,7 @@ body {
 .description-container {
   width: 100%;
   margin: 0 100px;
+  padding: 20px 0;
   background-color: var(--gray-dark);
   border-radius: 10px;
   border: 1px solid var(--white);
@@ -187,16 +188,16 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap: 60px;
+  gap: 20px;
 }
 .description-container h1 {
   font-size: 35px;
   font-weight: bold;
-  color: var(--white);
+  color: var(--green-blue);
 }
 .description-container p {
   font-size: 25px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--white);
 }
 .description-container h3 {
